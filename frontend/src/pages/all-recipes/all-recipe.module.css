@@ -1,0 +1,71 @@
+.container {
+    margin-top: 60px;
+}
+
+.title {
+    color: #969696;
+    font-size: 30px;
+}
+
+.flavorBox {
+    text-align: center;
+}
+
+.flavorBox button{
+    width: 155px;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.searchBar {
+    display: inline;
+    width: 300px;
+    text-align: center;
+}
+
+.orderBtn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .title {
+        font-size: 22px;
+    }
+    .subTitle {
+        font-size: 25px;
+    }
+    .searchBar {
+        font-size: 17px;
+        width: 250px;
+    }
+    .searchBtn {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .flavorBox button{
+        font-size: 14px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .subTitle {
+        font-size: 23px;
+    }
+    .searchBar {
+        font-size: 15px ;
+        width: 200px;
+    }
+    .searchBtn {
+        font-size: 15px;
+    }
+}

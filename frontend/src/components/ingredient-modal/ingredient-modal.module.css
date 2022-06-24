@@ -1,0 +1,11 @@
+.ingredientBtn {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .ingredientBtn {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+    }
+}

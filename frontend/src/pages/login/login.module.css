@@ -1,0 +1,59 @@
+.title {
+    font-size: 35px;
+    margin: 100px;
+}
+
+.loginBox {
+    text-align: center;
+}
+
+.subTitle {
+    font-size: 25px;
+}
+
+.img {
+    height: 40px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+    .title {
+        font-size: 30px;
+        margin: 30px;
+    }
+
+    .subTitle {
+        font-size: 20px;
+    }
+
+    .loginBox {
+        margin-top: 70px;
+    }
+
+    .img {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    .title {
+        font-size: 23px;
+        margin: 30px;
+    }
+
+    .subTitle {
+        font-size: 17px;
+    }
+
+    .loginBox {
+        margin-top: 70px;
+    }
+
+    .img {
+        height: 30px;
+    }
+
+}

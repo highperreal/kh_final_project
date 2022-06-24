@@ -1,0 +1,20 @@
+.hamburgerMenu {
+    font-size: 13px;
+}
+
+.allRecipeBtn {
+    margin-right: 7px;
+}
+
+.profileImg {
+    width: 25px;
+    border-radius: 70%;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .profileImg {
+        margin-left: 0px;
+    }
+
+}

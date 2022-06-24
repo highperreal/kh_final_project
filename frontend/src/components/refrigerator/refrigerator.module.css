@@ -1,0 +1,88 @@
+body{
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.mobileDesktop {
+    margin-bottom: 10px;
+    height: 600px;
+    border: solid #FFBEC3;
+    padding: 30px;
+}
+
+.boxDesktop {
+    margin-bottom: 10px;
+    height: 600px;
+    border: solid #FFBEC3;
+    padding: 30px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.emptyRefrigerator {
+    font-size: 30px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.refrigeratorBox {
+    width: auto;
+    height: 300px;
+    overflow: scroll;
+}
+
+.ingredient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 40px;
+}
+
+.deleteBtn {
+    text-align: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recipeBtn {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .ingredient {
+        padding: 5px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .boxDesktop {
+        display: none;
+    }
+    .title {
+        display: inline;
+    }
+    .ingredient {
+        font-size: 16px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,20 @@
+.ingredientBox {
+    height: 450px;
+    overflow: scroll;
+}
+
+.ingredientType {
+    display: flex;
+    align-items: center;
+}
+
+.ingredientRow {
+    margin: 0;
+    margin-top: 25px;
+}
+
+.img {
+    border-radius: 70%;
+    width: 40px;
+    height: 40px;
+}

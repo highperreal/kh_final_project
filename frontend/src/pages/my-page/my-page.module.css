@@ -1,0 +1,63 @@
+.container {
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+.title {
+    color: #969696;
+    font-size: 30px;
+}
+
+.userInfoContainer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.userInfoContainer img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 70%;
+}
+
+.userInfoBox {
+    margin-top: 40px;
+}
+
+.imgUploadBtn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.textField {
+    display: inline;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .title {
+        font-size: 22px;
+    }
+    .subTitle {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subTitle {
+        font-size: 23px;
+    }
+
+    .userInfoContainer img {
+        height: 200px;
+        width: 200px;
+    }
+}
